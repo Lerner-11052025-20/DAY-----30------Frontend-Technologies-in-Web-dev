@@ -1,0 +1,11 @@
+let a = 5;
+let b = "5";
+console.log(a == b);
+console.log(a === b);
+console.log(0 == false);
+console.log(0 == -0);
+console.log(0 == -1);
+console.log(0 == '');
+console.log(undefined == null);
+console.log(0 == 0n);
+console.log(0 == 1234564536n);
