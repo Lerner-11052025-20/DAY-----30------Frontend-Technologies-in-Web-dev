@@ -1,0 +1,24 @@
+let a = 4;
+let b = 4;
+
+// document.write("The Value of a = ", a);
+// document.write("<br>")
+// document.write("The Value of b = ", b);
+
+console.log("a == b is ", a == b)
+console.log("a != b is ", a != b)
+console.log("a > b is ", a > b)
+console.log("a < b is ", a < b)
+console.log("a >= b is ", a >= b)
+console.log("a <= b is ", a <= b)
+
+let c = "deep";
+let d = "deep";
+
+// document.write("<br>")
+// document.write("The Value of c = ", c);
+// document.write("<br>")
+// document.write("The Value of d = ", d);
+
+console.log("c === d is ", c === d)
+console.log("c !== d is ", c !== d)
