@@ -1,11 +1,54 @@
-let a = 5;
-let b = "5";
-console.log(a == b);
-console.log(a === b);
-console.log(0 == false);
-console.log(0 == -0);
-console.log(0 == -1);
-console.log(0 == '');
-console.log(undefined == null);
-console.log(0 == 0n);
-console.log(0 == 1234564536n);
+let nums = [1, 2, 3, 4, 5];
+console.log(nums);
+
+nums.push(6);
+console.log(nums);
+nums.push(7);
+console.log(nums);
+nums.push(8);
+console.log(nums);
+
+nums.pop();
+console.log(nums);
+nums.pop();
+console.log(nums);
+nums.pop();
+console.log(nums);
+nums.pop();
+console.log(nums);
+
+nums.push(5);
+console.log(nums);
+
+nums.unshift(0);
+console.log(nums);
+nums.unshift(-1);
+console.log(nums);
+nums.unshift(-2);
+console.log(nums);
+
+console.log(nums.shift());
+console.log(nums);
+console.log(nums.shift());
+console.log(nums);
+console.log(nums.shift());
+console.log(nums);
+
+// console.log(nums.length);  5
+
+console.log(nums.indexOf(5));
+console.log(nums.indexOf(50));
+console.log(nums.includes(5));
+console.log(nums.includes(50));
+
+let nums2 = [6, 7, 8, 9, 10];
+console.log(nums);
+console.log(nums2);
+console.log(nums.concat(nums2));
+console.log(nums);
+console.log(nums2);
+
+console.log(nums.reverse());
+console.log(nums2.reverse());
+console.log(nums);
+console.log(nums2);
