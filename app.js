@@ -1,39 +1,74 @@
-let message = "     Deep -       ";
-console.log(message);
-console.log(message.trim());
-console.log(message);
+const student = {
+    name: "deep",
+    age: 20,
+    marks: [100, 95, 83],
+    city: "ST",
+    cgpa: 8.5
+};
 
-console.log(message.toLowerCase());
-console.log(message.toUpperCase());
+console.log(student);
+console.log(student.age);
+console.log(student.name);
+console.log(student["marks"]);
+console.log(student["age"]);
 
-console.log(message.includes("-"));
-console.log(message.indexOf("-"));
 
-message = "     Deep -   -   -    "
-console.log(message);
-console.log(message.indexOf("-"));
-console.log(message.lastIndexOf("-"));
+// create
+const post = {
+    username: "deep",
+    content: "DSA protfolio dev",
+    likes: 450,
+    reposts: 10,
+    tags: ["#DSA", "#A-Z stiver DSA sheet", "#dev"]
+};
 
-console.log(message.trim().substring(0, 2).toLowerCase());
 
-let str = "ILoveCoding";
-console.log(str);
-console.log(str.toLowerCase());
-console.log(str.slice(0));
-console.log(str.slice(1,4));
-console.log(str.slice(1,5));
-console.log(str.slice(1));
-console.log(str.slice(5));
-console.log(str.slice(5, str.length));
-console.log(str.length);
-console.log(str.slice(5, str.length-1));
-console.log(str.slice(-1));
-console.log(str.slice(-2));
-console.log(str.slice(0-str.length)); // 0-11 ===> -11 ---> str.length 11-11 ==== 0 to last index
+// access
+console.log(post);
+console.log(post.content);
+console.log(post["tags"]);
+console.log(post.username);
+console.log(post["reposts"]);
+console.log(post.tags[0]);
+console.log(post.content[0]);
+console.log(post.content);
+// console.log(post["tags"[0]]);
 
-console.log(str.replace("love", "do"));
-console.log(str.replace("Love", "do"));
-console.log(str.replace("I", "do"));
+let temp = post["likes"];
+console.log(temp);
+temp = post.likes;
+console.log(temp);
 
-console.log(str.repeat(5));
-console.log(str.repeat(3));
+console.log(post.tags);
+console.log(post.username);
+console.log(post.content);
+console.log(post.reposts);
+console.log(post.likes);
+
+// update
+post.content = "DSA";
+console.log(post);
+post["content"] = "dev portfolio";
+console.log(post);
+post.tags[2] = "project";
+console.log(post);
+post.tags[3] = "project-Portfolio";
+console.log(post);
+
+//add
+post.tuf = "15%";
+console.log(post);
+post["LC"] = 28;
+console.log(post);
+post.GitHub = 9;
+console.log(post);
+
+//remove
+console.log(delete post.reposts);
+console.log(post);
+console.log(delete post.LC);
+console.log(post);
+console.log(delete post.GitHub);
+console.log(post);
+console.log(delete post["likes"]);
+console.log(post);
