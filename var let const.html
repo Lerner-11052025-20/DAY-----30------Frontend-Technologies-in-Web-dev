@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        var a=2
+        document.write(a)  
+        document.write("<br>")
+
+        var a=3                           //var ma redeclare and reupdate
+        document.write(a)  
+        document.write("<br>")
+
+        let b=7
+        document.write(b)
+        document.write("<br>")
+        
+        {             // var is not block scoped variable same value be vaar aape 
+            let b=8
+            document.write(b)               //let is a block scoped variable
+        }
+        document.write("<br>")
+        
+
+        const d = 3.14
+        document.write(d)
+        document.write("<br>")
+
+        const author="Deep"
+        document.write("This Programm author is = ",author)
+
+       /* const author="smit"      author already declare thai gyo chhe error aavshe
+        document.write(d)      
+        ncaught SyntaxError: Identifier 'author' has already been declared (at tryit.html:30:15)*/
+
+        /*document.write("<br>")
+        let h= basic_1
+        document.write(h)*/
+    </script>
+</body>
+</html>

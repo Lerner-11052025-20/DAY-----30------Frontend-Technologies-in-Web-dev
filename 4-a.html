@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>
+            23CEK016 practical-4(a)
+        </title>
+    </head>
+
+    <body>
+        <script>
+            var n = prompt("Enter a number = ");
+            n=Number.parseInt(n);
+            document.write("YOur Number is = "+n+" ");
+            document.write("<br>");
+
+            let hundread = Math.floor(n/100);
+            n = n - (hundread*100);
+
+            let fifty = Math.floor(n/50);
+            n = n - (fifty*50);
+
+            let twenty = Math.floor(n/20);
+            n = n - (twenty*20);
+
+            let ten = Math.floor(n/10);
+            n = n - (ten*10);
+
+            let five = Math.floor(n/5);
+            n = n - (five*5);
+
+            let two = Math.floor(n/2);
+            n = n - (two*2);
+
+            let one = Math.floor(n/1);
+            n = n - (one*1);
+
+            document.write("The Hundread in This Number are "+hundread+"times ");
+            document.write("<br>");
+            document.write("The Fifty in This Number are "+fifty+"times ");
+            document.write("<br>");
+            document.write("The Tewnty in This Number are "+twenty+"times ");
+            document.write("<br>");
+            document.write("The Ten in This Number are "+ten+"times ");
+            document.write("<br>");
+            document.write("The Five in This Number are "+five+"times ");
+            document.write("<br>");
+            document.write("The Two in This Number are "+two+"times ");
+            document.write("<br>");
+            document.write("The One in This Number are "+one+"times ");
+            document.write("<br>");
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <script>
+            function avg(a,b,c){
+                return (a+b+c)/3   
+            }
+
+            // First method very wonderfull
+            let d = avg(1,2,3);
+            confirm("avg(1,2,3) = "+d+" ");
+            let e = avg(4,4,4);
+            confirm("avg(4,4,4) = "+e+" ");
+            let f = avg(44,444,4444);
+            confirm("avg(44,444,4444) = "+f+" ");
+            
+
+            // second method but wonderfull not
+            document.write("avg(1,2,3) = ",avg(1,2,3));
+            document.write("<br>");
+            document.write("avg(4,4,4) = ",avg(4,4,4));
+            document.write("<br>");
+            document.write("avg(44,444,4444) = ",avg(44,444,4444));
+            document.write("<br>");
+            document.write("avg(40,400,4000) = ",avg(40,400,4000));
+        </script>
+    </body>
+</html>

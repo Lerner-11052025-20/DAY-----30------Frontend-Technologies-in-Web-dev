@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <script>
+            let a = prompt("Enter the Value of a = ") 
+            a = Number.parseInt(a)
+            let b = prompt("Enter the Value of b = ") 
+            b = Number.parseInt(b)
+
+            document.write("The Value of  a = ",a)
+            document.write("<br>")
+            document.write("The Value of  b = ",b)
+            document.write("<br>")
+            document.write(typeof a)   
+            document.write("<br>")
+            document.write(typeof b)
+            document.write("<br>")
+
+            if(a>=0 && b>=0)
+            {
+                document.write("Both Value mean "+a+" and "+b+" are POSITIVE");
+            }
+            else if(a<0 && b<0)
+            {
+                document.write("Both Value mean "+a+" and "+b+" are NEGATIVE");
+            }
+            else if(a>=0 && b<0 )
+            {
+                document.write("First Value "+a+" is POSITIVE and Second Value "+b+" is NEGATIVE  ")
+            }
+            else if(a<0 && b>=0 )
+            {
+                document.write("First Value "+a+" is NEGATIVE and Second Value "+b+" is POSITIVE  ")
+            }
+            else
+            {
+                document.write("Error!!! Incorrect user Input!!!")
+            }
+
+
+        </script>
+    </body>
+</html>
