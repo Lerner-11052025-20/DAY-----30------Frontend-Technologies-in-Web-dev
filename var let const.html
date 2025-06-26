@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <style>
+            *{
+                font-size: xx-large;
+                text-decoration-line: underline;
+                text-align:center;
+                text-shadow: 2px 2px 5px red;
+            }
+        </style>
+    </head>
 
 <body>
     <script>
@@ -7,9 +17,10 @@
         document.write(a)  
         document.write("<br>")
 
-        var a=3                           //var ma redeclare and reupdate
-        document.write(a)  
-        document.write("<br>")
+        var a=30                           //var ma redeclare and reupdate
+        document.write("after reupdate a = ",a)  
+        document.write("<br>")  
+        document.write("<hr>")  
 
         let b=7
         document.write(b)
@@ -17,25 +28,37 @@
         
         {             // var is not block scoped variable same value be vaar aape 
             let b=8
-            document.write(b)               //let is a block scoped variable
+            document.write("In between BLOCK SCOPE b = ",b)               //let is a block scoped variable
         }
-        document.write("<br>")
-        
+        document.write("<br>");
+        document.write(b)
+        document.write("<br>");
+        document.write("<hr>") 
+
 
         const d = 3.14
-        document.write(d)
+        document.write("d = ",d)
         document.write("<br>")
 
         const author="Deep"
         document.write("This Programm author is = ",author)
+        document.write("<hr>") 
+        
+        // const author="smit"      //author already declare thai gyo chhe error aavshe
+        // document.write(d)      
+        // // ncaught SyntaxError: Identifier 'author' has already been declared (at tryit.html:30:15)
 
-       /* const author="smit"      author already declare thai gyo chhe error aavshe
-        document.write(d)      
-        ncaught SyntaxError: Identifier 'author' has already been declared (at tryit.html:30:15)*/
+        let  a_1 = 2;
+        document.write("a_1 = "+a_1);
+        document.write("<br>");
 
-        /*document.write("<br>")
-        let h= basic_1
-        document.write(h)*/
+        let  _abcd = 2;
+        document.write("_abcd = ",_abcd);
+        document.write("<br>");
+
+        let $deep = "deep";
+        document.write("$deep = "+$deep);
+        document.write("<br>");
     </script>
 </body>
 </html>
