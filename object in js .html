@@ -1,4 +1,15 @@
 <html>
+    <head>
+        <style>
+            *{
+                font-size: xx-large;
+                text-decoration-line: underline;
+                text-align:center;
+                text-shadow: 2px 2px 5px red;
+            }
+        </style>
+    </head>
+    
     <body>
         <script>
 
@@ -9,14 +20,14 @@
 
             document.write(item.deep)
             document.write("<br>")
-            document.write(item['deep'])
+            document.write(item['deep'])        //last ma single quote karvo compulsory
             document.write("<br>")
             document.write(item.harry)
 
 
-            console.log("the value of deep is = ",item.deep)
+            console.log("The value of deep is = ",item.deep)
             console.log(item['deep'])
-            console.log("the value of harry is = ",item['harry'])
+            console.log("The value of harry is = ",item['harry'])
 
             item['deep'] = " is tall";
             document.write("<br>")
