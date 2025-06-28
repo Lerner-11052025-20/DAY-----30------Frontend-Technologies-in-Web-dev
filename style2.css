@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin-left: 15px;
+}
+
+.firstdiv {
+    background-color: black;
+    color: aliceblue;
+}
+
+div a {
+    text-decoration: none;
+    color: maroon;
+}
+.navdiv a{
+    background-color: azure;
+    color: black;
+}
+a {
+    color: magenta;
+}
+
+.div1, .div2 {
+    color: chocolate;
+}
+
+#div1 {
+    color: magenta;
+}
+
+#div2 {
+    color: #00f;
+}
+
+#div1, #div2 {
+    color: rgb(0, 0, 0);
+}
+
+section dt{
+    background-color: green;
+}
+
+#deep>p{
+    background-color: black;
+}
+
+p+h2{
+    color: magenta;
+}
+
+h3+h3{
+    background-color: aquamarine;
+}
+
+div>h3{
+    color: blueviolet;
+}
+
+p+h3{
+    color: darkred;
+}
+
+div>button {
+    color: #00f;
+}
+div button {
+    color: #00f;
+}
+
+span + h5{
+    color: red;
+}
+
+label {
+    color: red;
+}
+
+input[type="checkbox"]:checked + label {
+    color: magenta;
+    background-color: black;
+}
+
+/* input[type] {
+    background-color: #00f;
+    color: #fff;
+} */
+
+#effect {
+    width: 200px;
+    height: 250px;
+    background-color: #00f;
+    color: aliceblue;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    box-shadow: 3px 3px 19px black;
+    transition: all 4s ease 0.2s;
+}
+
+#effect:hover {
+    transform: scale(0.5);
+    box-shadow: 2px 2px 16px black;
+    background-color: black;
+    color: magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.my {
+    padding: 50px;
+    background-color: black;
+    color: magenta;
+    /* margin-bottom: 10px; */
+    margin: 20px 0;
+    /* transition: all 4s ease 0.2s; */
+}
+
+/* .my:hover {
+    background-color: #00f;
+    color: aliceblue;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+} */
+
+.my:active {
+    background-color: aliceblue;
+    color: black;
+}
+
+table {
+    margin: auto;
+    box-shadow: 3px 3px 20px black;
+}
+tr:nth-of-type(2n) {
+    background-color: blue;
+}
+tr:nth-of-type(2n-1) {
+    background-color: magenta;
+}
+
+.pseudo h2::first-letter {
+    color: magenta;
+    background-color: black;
+}
+
+.pseudo>h2::first-line {
+    background-color: rgb(56, 59, 58);
+    color: chartreuse;
+    box-shadow: 3px 3px 20px black;
+}
+
+.pseudo>h2::selection {
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+#imp {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    /* margin: auto; */
+    box-shadow: 4px 4px 20px magenta !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.lastOfPart2 {
+    background-color: #00f;
+    color: white;
+}
+
+/* .lastOfPart2 p {
+    background-color: yellow;
+    color: black;
+} */
+
+.lastOfPart2 nav {
+    background-color: #000;
+}
+.lastOfPart2 ul {
+    background-color: #0f0;
+}
+
+/* .last3 {
+    background-color: #000;
+} */
+
+.last2 {
+    background-color: magenta;
+}
+
+.last2 input, button {
+    background-color: inherit;
+}
+/* .last2 button {
+    background-color: inherit;
+} */
