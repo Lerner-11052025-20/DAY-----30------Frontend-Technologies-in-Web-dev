@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+
+.deep {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: magenta;
+    /* margin: auto; */
+    display: inline-block;
+    text-align: center;
+}
+
+#b1 {
+    background-color: blue;
+    color: azure;
+}
+
+#b1:hover {
+    transition: all 2s ease;
+    background-color: black;
+    color: magenta;
+    /* font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: 900; */
+}
+
+#para {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: magenta;
+}
+
+p {
+    width: 33.33%;
+    /* height: 33.33%; */
+}
+
+
+#para2 {
+    width: 200px;
+    height: 200px;
+    /* font-size: 10px; */
+    background-color: black;
+    color: magenta;
+}
+
+label {
+    font-size: 2em;
+    padding: 0.1em;
+}
+
+.snow {
+    font-size: 20px;
+}
+#ball1 {
+    font-size: 2em;
+}
+#ball2 {
+    font-size: 2em;
+}
+#ball3 {
+    font-size: 2em;
+}
+
+
+
+
+
+.snowii {
+    font-size: 20px;
+}
+#ball1ii {
+    font-size: 2rem;
+}
+#ball2ii {
+    font-size: 2rem;
+}
+#ball3ii {
+    font-size: 2rem;
+}
