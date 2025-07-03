@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <title>Table Learning</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name here" name="user">
+        </div>
+        <br>
+
+        <div>
+            <label for="emailID">Email ID: </label>
+            <input type="email" id="emailID" placeholder="Enter your email here" name="EMAIL">
+        </div>
+        <br>
+
+        <div>
+            <label>Sex: </label>
+            <input type="radio" name="gender" value="m" id="m">
+            <label for="m"> Male &nbsp;</label>
+            <input type="radio" name="gender" value="fm" id="fm">
+            <label for="fm">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <label for="nation">Country: </label>
+            <select name="country" id="nation">
+                <option >Select an option</option>
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="London">London</option>
+                <option value="Paris">Paris</option>
+                <option value="Japan">Japan</option>
+                <option value="China">China</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Mangolia">Mangolia</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="feedback">Message: </label><br>
+            <textarea name="comment" id="feedback" rows="5" cols="40" placeholder="Enter your valueable feedback :- "></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="checkbox" name="checkbox" value="yes"  id="box">
+            <label for="box"> Subscribe?</label>
+        </div>
+        <br>
+
+        <div>
+            <label >Rate us, our of 5:</label><br>
+            <input type="radio" name="rate" id="1" value="1">
+            <label for="1"> 1</label><br>
+            <input type="radio" name="rate" id="2" value="2">
+            <label for="2"> 2</label><br>
+            <input type="radio" name="rate" id="3" value="3">
+            <label for="3"> 3</label><br>
+            <input type="radio" name="rate" id="4" value="4">
+            <label for="4"> 4</label><br>
+            <input type="radio" name="rate" id="5" value="5">
+            <label for="5"> 5</label><br>
+        </div><br>
+
+        <div>
+            <button>Sen your message!</button>
+        </div>
+        <!-- <p>http://127.0.0.1:5500/action?user=deep&gender=m&country=Japan&comment=sadas+dasdas&checkbox=yes</p> -->
+    </form>
+</body>
+</html>
