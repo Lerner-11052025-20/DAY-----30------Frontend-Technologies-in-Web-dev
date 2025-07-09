@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+section{
+    background-color: #0f1111;
+    height: 50px;
+    border:5px solid wheat;
+}
+
+div{
+    display: inline-block;
+    height: max-content;
+    /* border: 2px dashed white; */
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+div:hover{
+    background-color: rgb(219, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
+}
+
+#amazonIN{
+    color: #f08804;
+}
+#amazonBACK{
+    background-color: #f08804;
+    margin-right: 20px;
+}
