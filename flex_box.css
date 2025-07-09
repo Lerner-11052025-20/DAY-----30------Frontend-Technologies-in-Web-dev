@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#container{
+    /* FLEX BOX CONTAINER MATE ONLY */
+    display: flex;  
+    justify-content: space-between;
+    /* FLEX ITEMS MATE ONLY */
+    /* flex-direction: row; */
+    /*only the items main div na center ma aavi jashe main div na width na center ma vachho vach to nahi j*/
+    align-items: center;    
+    /*Aa property thi jo tame flex-wrap aapelu hashe to items ni vacche thi spack remove karva and center ma lavva mate*/
+    /* align-content:center;    */
+    /* flex-wrap: wrap; */
+
+    align-self: first baseline;
+    height: 30vw;
+    width: 50vw;
+    border: 5px solid black;
+    margin: 20px;
+    margin-left:25vw;
+    text-align: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.box:hover{
+    background-color: lime;
+    font-size: xx-large;
+    font-style: italic;
+    color: azure;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: greenyellow;
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color: violet;
+}
