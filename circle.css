@@ -1,0 +1,21 @@
+*{
+    padding:0px;
+    margin:10px;
+}
+
+div{
+    height:400px;
+    width:400px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+div:hover{
+    transition: all;
+    transition-delay: 0.2s;
+    transition-duration: 1s;
+    transition-timing-function:ease-in;
+    background-color: blue;
+    color: green;
+}
